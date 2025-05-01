@@ -10,8 +10,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <WalletLogo white />
-              <span className="ml-2 text-xl font-bold">RockWallet</span>
+              {/* <WalletLogo white />
+              <span className="ml-2 text-xl font-bold">RockWallet</span> */}
+              <img src="https://cdn.prod.website-files.com/636012218b483e2e5e98b3e4/6360316485f6cb0f029d91b3_RW_OneLine_Black.png"  width="200px" height="40px" sizes="(max-width: 479px) 96vw, 396px" alt=""  style={{filter: "invert(1)"}} className="header-logo"/>
             </div>
             <p className="text-blue-200 mb-6">
               A secure and easy way to buy, sell, and manage your cryptocurrency.
